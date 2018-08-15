@@ -1,0 +1,38 @@
+#top{
+    height: 100px;
+    width:100%;
+}
+#page{
+    position:relative;
+    background-color: #dddddd;
+    height:1000px;
+}
+#name{
+    position:absolute;
+    left:10%;
+    width:10%;
+    color:white;
+    background-color: #4aaaa5;
+    text-align: center;
+}
+
+.button{
+    position:relative;
+    left:70%;
+    float:left;
+    border-style: groove;
+    border-color: black;
+}
+
+.content{
+    width:960px;
+    margin:auto;
+    background-color:white;
+}
+
+.picLink{
+    display: inline-block;
+    height:200px;
+    width:200px;
+    border:1px black solid;
+}
